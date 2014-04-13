@@ -41,7 +41,7 @@ nav hr{
 	background: url('../img/flower_line.png');
 	border:none;
 	height: 86px;
-	top:30px;
+	top:15px;
 	position: relative;
 	width: 100%;
 }
@@ -52,7 +52,7 @@ nav ul{
 }
 
 nav#menu{
-	height: 6em;
+	height: 2em;
 	margin:auto;
 	text-align: center;
 }
