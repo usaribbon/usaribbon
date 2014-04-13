@@ -17,9 +17,9 @@ $(function(){
 	$(window).scroll(function () {
 		var ScrTop = $(document).scrollTop();
 		if(ScrTop > 100){
-			$('#momowasa').fadeIn("fast");
+			$('#momowasa').animate({bottom:'-25px'},'fast');
 		}else{
-			$('#momowasa').fadeOut("normal");
+			$('#momowasa').animate({bottom:'-300px'},'fast');
 		}
 
 	});
