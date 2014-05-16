@@ -1,4 +1,4 @@
 Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.usaribbon\.net$
-RewriteRule ^(.*)$ http://usaribbon.net/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^usaribbon\.net$
+RewriteRule ^(.*)$ http://www.usaribbon.net/$1 [R=301,L]
