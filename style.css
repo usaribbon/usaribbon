@@ -220,9 +220,6 @@ footer hr{
 
 
 @media screen and (max-width: 700px) {
-  body{
-    font-size: 18pt;
-  }
 
 	nav ul{
 		width: 100%;
