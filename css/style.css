@@ -1,0 +1,280 @@
+@import url(http://fonts.googleapis.com/css?family=Antic+Didone|Coming+Soon);
+
+body{
+	font-family: 'Antic Didone',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;	
+	color: #74685B;
+	line-height: 1.4em;
+}
+
+a, .underline{
+	color: #74685B;
+    border-bottom: 1px dotted #74685B;
+    text-decoration: none;
+}
+
+a:hover, .underline:hover{
+	color: #e9417d;
+}
+
+#wrap{
+	margin: 0;
+}
+
+header{
+	margin:0;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+
+nav{
+	background:url('../img/back_nav.png');
+	z-index: 9999;
+	width: 100%;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav hr{
+	background: url('../img/flower_line.png');
+	border:none;
+	height: 86px;
+	top:15px;
+	position: relative;
+	width: 100%;
+}
+
+nav ul{
+	width: 700px;
+	margin: auto;
+}
+
+nav#menu{
+	height: 2em;
+	margin:auto;
+	text-align: center;
+}
+
+nav#menu li{
+	width:170px;
+	height: 1.5em;
+	text-align: center;
+	display: inline-block;
+	margin-top: 1.5em;
+}
+
+
+#momowasa_mono{
+	width:20%;
+}
+
+#top{
+	min-height: 300px;
+	padding-top: 9rem;
+	padding-bottom: 9rem;
+	background: url('../img/back_stripe.png');
+}
+
+#top hr{
+	background: url('../img/flower_line.png');
+	border:none;
+	height: 86px;
+	top:-42px;
+	position: relative;
+}
+
+#top h2{
+	font-size: 1.5em;
+	margin: 1.5em 0;
+}
+
+#top p{
+	clear: both;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+hr{
+	margin: 0;
+}
+
+h1{
+	display: none;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+footer hr{
+	background: url('../img/lace_line_revert.png');
+	border:none;
+	height: 41px;
+	top:-30px;
+	position: relative;
+}
+
+#about{
+	min-height: 750px;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background: url('../img/back_dot.png');
+	width: 100%;
+}
+
+#about hr{
+	background: url('../img/flower_line.png');
+	border:none;
+	height: 86px;
+	top:-120px;
+	position: relative;
+}
+
+#aboutcontent{
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
+
+#productcontent{
+	width: 700px;
+	margin: auto;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#aboutcontent h2{
+	font-size: 3em;
+}
+
+#productcontent h2{
+	font-size: 3em;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+#aboutcontent section{
+	text-align: left;
+	font-size: 1.2em;
+	margin: auto;
+}
+
+#aboutcontent p{
+	font-size: 85%;
+}
+
+#aboutcontent h3, #productcontent h3{
+	text-align: left;
+	font-size: 1.3em;
+
+	display: block;
+	background: url('../img/li_heart.png');
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	height:25px; 
+	margin-top: 0.8em;
+	margin-bottom: 0.2em;
+	margin-left: 0.5em;
+
+}
+
+#aboutcontent p, #productcontent p{
+	padding-left: 1em;
+	width: 100%;
+	word-wrap:break-word;
+}
+
+#Face_of_usa{
+	width: 50%;
+	margin: auto;
+}
+
+#social{
+	margin-top: 2em;
+	text-align: center;
+}
+
+#social a,#momowasa a{
+    text-decoration: none;
+    border:none;
+}
+
+#social a:hover{
+	opacity: 0.7;
+}
+
+.pictogram{
+	width: 32px;
+	margin-right: 1.5em;
+}
+
+#product{
+	width: 100%;
+	background: url('../img/back_check.png');
+	padding-top: 3rem;
+}
+
+#product hr{
+	background: url('../img/lace_line.png');
+	border:none;
+	height: 41px;
+	top:-10px;
+	position: relative;
+	margin: 0;
+	margin-top: -3rem;
+}
+
+#momowasa{
+	bottom:-300px;
+	right: 50px;
+	position: fixed;
+}
+
+
+@media screen and (max-width: 700px) {
+
+	body{
+		font-size: 150%;
+	}
+	nav ul{
+		width: 100%;
+	}
+	nav hr {
+		top: 10px;
+	}
+
+	#momowasa_mono {
+		width: 50%;
+	}
+
+	#aboutcontent{
+		width: 100%;
+	}
+
+	#momowasa{
+		right: 10px;
+		width:20%
+	}
+
+	.pictogram{
+		width: 60px;
+		margin-right: 2.5em;
+	}
+	#aboutcontent,#productcontent{
+		width: 100%;
+	}
+
+	#aboutcontent p, #productcontent p{
+		padding-left: 0;
+	}
+
+	h2{
+		font-size: 2rem;
+	}
+
+}

@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=700px, user-scalable=yes" >
 <meta name="description" content="Usaribbon is Minami YODA.">
 
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/mousa.js"></script>
 <link rel="shortcut icon" href="./img/favicon.ico" type="image/vnd.microsoft.icon">
 <title>I'm Usaribbon - MinamiYODA, 依田みなみ</title>
 
-<link rel="stylesheet" type="text/css" href="html5-doctor-reset-stylesheet.min.css"/>
-<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
-<script type="text/javascript" src="mousa.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css"/>
-
+<link rel="stylesheet" type="text/css" href="css/html5-doctor-reset-stylesheet.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/lightbox_magnific.css"/>
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -46,8 +46,7 @@
 
 			<svg id="Face_of_usa" viewBox="0 0 471 369" style="background-color:#ffffff00" version="1.1"
 				xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
-				x="0px" y="0px" width="471px" height="369px"
-			>
+				x="0px" y="0px" width="471px" height="369px">
 				<defs>
 				<clipPath id="mask1">
 					<path d="M 282.4369 104.151 C 263.5304 -26.8218 112.7136 -37.7518 75.1397 98.3545 C 54.5009 173.104 115.8126 219.4949 153.5991 261.6828 C 190.2394 302.5955 211.1969 350.7676 211.6116 369 C 220.306 353.567 266.5048 322.1418 315.4492 304.0706 C 368.9655 284.3121 445.6721 276.7812 465.265 201.7543 C 501.0371 64.8033 360.884 4.2218 282.4369 104.151 Z" fill="#cc0066"/>
@@ -63,7 +62,7 @@
 				<h3>Like</h3>
 				<p>Rabbit, <a href="https://github.com/usaribbon/usmf_cmd" target="_blank">Momowasa</a>, Computer, Disney</p>
 				<h3>I use ...</h3>
-				<p>Ps/Il/HTML/CSS/JavaScript/Android(Java)/LAMP/Ruby</p>
+				<p>Ps, Il, HTML, CSS, JavaScript, Android(Java), LAMP, Ruby</p>
 				<h3>Contact Me</h3>
 				<p>me/usaribbon.net (/ -> @)</p>
 				<p id="social">
@@ -76,28 +75,17 @@
 
 
 	<div id="product">
-			<hr/>
-			<!--
-			<h2>うさについて</h2>
-			<section>
-				<h3>うささんとは</h3>
-				<p>東京工科大学メディア学部の3年生です。<br/>
-					サークルはLinuxClub。<br/>
-					小学生の頃からWEBが好き。<br/>
-					PCの前に座ると途端に元気になります。<br/>
-					</p>
-				<h3>好きなもの</h3>
-				<p>ピンク/パソコン/うさぎ/洋服/美容/ネイル/アリエル</p>
-				<h3>知ってること</h3>
-				<p>Ps/Il/HTML/CSS/JS/PHP/Android(Java)<br/>MySQL/Apache</p>
-				<h3>ranranru-</h3>
-				<p>me/usaribbon.net (/ -> @)<br/>
-					<a href="https://twitter.com/usaribbon_"><img src="img/twitter.png"/></a>
-				<a href="https://www.facebook.com/usaribbon"><img src="img/facebook.png"/></a></p>
-			</section>-->
-	<footer id="footer">
-		(C) 2014 usaribbon All Rights Reserved.
-	</footer>
+		<hr/>
+		<div id="productcontent">
+			<h2>Works & Publications</h2>
+			<h3>Works</h3>
+				<p><a href="img/select.png" id="works">Click me!!</a></p>
+			<h3>Publications</h3>
+				<p>2014/2/27 - MinamiYODA, HisakazuHADA, IPSJ Interaction 2014, <a href="http://www.interaction-ipsj.org/proceedings/2014/data/20140220/A4-5.pdf" id="works" target="_blank">SoundShare: Sharing Information Method for Ad-hoc Community</a> (Japanese)</p>
+		</div>
+		<footer id="footer">
+			(C) 2014 usaribbon All Rights Reserved.
+		</footer>
 	</div>
 	<!--
 	<div id="publication">
@@ -112,6 +100,39 @@
 		<a href="#menu"><img src="./img/momowasa.png" alt="go to top!" style="width:100%"></a>
 	<div>
 </div>
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/lightbox_magnific.js"></script> 
+<script src="js/zepto.min.js"></script> 
+<script src="js/zepto.flickable.min.js"></script> 
+
+<script type="text/javascript">
+  	$(function(){
+		$('#works').magnificPopup({
+			items: [
+			{
+			  title: "The cutest computer!!<small>2010/04</small>",
+	          src: 'img/work_01.png'
+	     	},{
+			  title: "Analyzing cosmetic ingredients application<small>However, it haven't been relased because of API license.</small>",
+	          src: 'img/work_05.jpg'
+	        },{
+			  title: "Website of my laboratory in TEU using Wordpress<small>2013.05</small>",
+	          src: 'img/work_03.png'
+	        },{
+			  title: "Recruitment system in TEU network center<small>2010.04</small>",
+	          src: 'img/work_02.png'
+	        },{
+			  title: "<a href='http://www.puolikuu.net/'>puolikku</a> - Novel game club <small>2013.12</small>",
+	          src: 'img/work_06.png'
+	        }],
+			  gallery: {
+		      enabled: true
+		    },
+		    type: 'image'
+		});
+	});
+</script>
 
 </body>
 </html>
