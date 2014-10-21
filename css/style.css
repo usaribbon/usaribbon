@@ -247,6 +247,7 @@ footer hr{
 
 	body{
 		font-size: 150%;
+		font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;	
 	}
 	nav ul{
 		width: 100%;
@@ -273,11 +274,12 @@ footer hr{
 		margin-right: 2.5em;
 	}
 	#aboutcontent,#productcontent{
-		width: 100%;
+		width: auto;
 	}
 
 	#aboutcontent p, #productcontent p{
-		padding-left: 0;
+		padding: 1em;
+		width: auto;
 	}
 
 	h2{
