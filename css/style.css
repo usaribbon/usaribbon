@@ -284,13 +284,10 @@ footer hr{
 	#aboutcontent p, #productcontent p{
 		padding: 0.5em 1em;
 		width: auto;
+		font-size: 1.5rem;
 	}
 
 	h3{
-		font-size: 1.5em;
-	}
-
-	p{
-		font-size: 1em;
+		font-size: 1.8rem;
 	}
 }
