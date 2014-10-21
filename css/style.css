@@ -229,6 +229,13 @@ footer hr{
 	margin-top: -3rem;
 }
 
+#productarea {	border:solid 1px #2d2d2d;
+				background:rgba(255, 247, 234, 0.60); padding:2rem 2rem;  -moz-border-radius: 5px;  -webkit-border-radius: 5px; border-radius: 5px;}
+
+#productarea {	border:double 4px #d4b39d;-moz-border-radius-topleft: 5px; -moz-border-radius-topright:5px; -moz-border-radius-bottomleft:5px; 
+				-moz-border-radius-bottomright:5px; -webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px; -webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;
+				border-top-left-radius:5px; border-top-right-radius:5px; border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+
 #momowasa{
 	bottom:-300px;
 	right: 50px;
