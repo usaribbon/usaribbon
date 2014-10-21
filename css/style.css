@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Antic+Didone|Coming+Soon);
+@import url(http://fonts.googleapis.com/css?family=Antic+Didone|Coming+Soon|Muli);
 
 body{
 	font-family: 'Antic Didone',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;	
@@ -247,7 +247,7 @@ footer hr{
 
 	body{
 		font-size: 150%;
-		font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;	
+		font-family:'Muli',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;	
 	}
 	nav ul{
 		width: 100%;
@@ -262,6 +262,10 @@ footer hr{
 
 	#aboutcontent{
 		width: 100%;
+	}
+
+	#aboutcontent h2,#productcontent h2{
+		font-size: 2rem;
 	}
 
 	#momowasa{
@@ -286,4 +290,7 @@ footer hr{
 		font-size: 2rem;
 	}
 
+	p{
+		font-size: 1em;
+	}
 }
