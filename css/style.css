@@ -3,7 +3,7 @@
 body{
 	font-family: 'Antic Didone',"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;	
 	color: #74685B;
-	line-height: 1.4em;
+	line-height: 1.5em;
 }
 
 a, .underline{
@@ -164,8 +164,8 @@ footer hr{
 	margin: auto;
 }
 
-#aboutcontent p{
-	font-size: 85%;
+#aboutcontent p, #productarea p{
+	font-size: 1.2rem;
 }
 
 #aboutcontent h3, #productcontent h3{
