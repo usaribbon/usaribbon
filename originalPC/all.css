@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* スクロールバーの有無によるセンタリングのズレ防止 */
+*html body {　　  /* IE6だけに適用 */
+     overflow-y: auto;
+}
+
+*+html body {　　 /* IE6だけに適用 */
+     overflow-y: auto;
+}
+
+body {
+	overflow-y: scroll; /* スクロールバーの有無によるセンタリングのズレ防止 */
+	font: 100%/1.4 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	background-image:url(img/back.gif);
+	margin: 0;
+	padding: 0;
+	color: #000;
+	line-height:150%;
+}
+
+/* テキスト系 */
+ul{ 
+	padding: 0;
+	margin: 0;
+	list-style:none;
+}
+
+ol{
+	margin-left: 40px;
+}
+
+ol.list{
+	list-style-image:url(img/list.png);
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom:20px;
+	padding-right: 15px;
+	padding-left: 15px; 
+	color:#3D2A18;
+}
+
+p{
+	margin-top: 0;
+	margin-bottom:20px;
+	padding-right: 25px;
+	padding-left: 40px; 
+	color:#3D2A18;
+}
+
+h2:before{
+   content: url("img/list_o.png");
+   margin-left: 1em;
+}
+
+h2.red:before{
+   content: url("img/list_pink.png");
+   margin-left: 1em;
+}
+
+h2{	
+	margin-top: 0;
+	margin-bottom:10px;
+	padding-right: 15px;
+	color:#3D2A18;
+	font-size:120%;
+}
+
+
+h3:before{
+   content: url("img/list_o.png");
+   margin-left: 1em;
+}
+
+h3.green:before{
+   content: url("img/list.png");
+   margin-left: 1em;
+}
+
+h3{	
+	margin-top: 5px;
+	margin-bottom:10px;
+	padding-right: 15px;
+	color:#3D2A18;
+	font-size:95%;
+}
+
+
+/* リンクタグ */
+a{text-decoration: none;}
+a:link { color: #3D2A18; }
+a:visited { color: #3D2A18; }
+a:hover { color: #E85B8B; }
+a:active { color: #3D2A18; }
+a img {border: none;}
+
+
+/* 水平線タグ */
+hr{
+	border-width:1px 0px 0px 0px;
+	height:1px;
+	overflow:hidden;
+	margin-top:0;
+	width: 80%;
+	clear:both;
+	align:center;
+}
+
+/* コンテナ */
+.container {
+	width: 824px;
+	min-height:430px;
+	margin: 0 auto;
+	padding-bottom:20px;
+	background-repeat:repeat;
+	background-image:url(img/content.png);
+	/*　divにスクロールをつける場合 overflow:auto; */
+	}
+
+.container:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	max-height: 0;
+	visibility: hidden;
+}
+
+/* ヘッダー */
+.header {
+	width: 824px;
+	margin: auto;
+	height:124px;
+}
+
+/* メニュー */
+.sidebar1 {
+	float: left;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+
+/* 本文 */
+.content {
+	width: 72%;
+	float: right;
+	padding-right:20px;
+}
+
+/* フッター */
+.foot{
+	text-align:center;
+	letter-spacing:0.05em;
+	font-size:smaller;
+	}
+
+.footer {
+	width: 824px;
+	margin: 0 auto; 
+	padding:0;
+	height:99px;
+	position: relative;
+	background-image:url(img/bottom.png);	
+}
+
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
